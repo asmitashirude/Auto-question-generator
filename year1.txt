@@ -1,0 +1,3 @@
+What is the _col_ of _row_?
+What is _row_'s _col_?
+Assuming the current year, how long ago was the _col_ of _row_?

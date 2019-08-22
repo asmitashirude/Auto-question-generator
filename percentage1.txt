@@ -1,0 +1,6 @@
+What is the _colwb_ of _row_?
+What is _row_'s _colwb_?
+Which _master-column-header-plural_ have more _colwb_ than _data__unit_?
+Which _master-column-header-plural_ have less _colwb_ than _data__unit_?
+Which _master-column-header-plural_ have more _colwb_ than _row_?
+Which _master-column-header-plural_ have less _colwb_ than _row_?

@@ -1,0 +1,4 @@
+What is the _col_ of _row_?
+What is _row_'s _col_?
+How to identify _row_ uniquely?
+Which _master-column-header-singular_ has _col_ of _data_?

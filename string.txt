@@ -1,0 +1,221 @@
+201 code
+
+201 pan
+
+202 artist
+
+202 dr.
+
+202 doctor
+
+202 player
+
+202 person
+
+202 prof
+
+202 student
+
+202 employee
+
+202 manager
+
+202 ceo
+
+202 md
+
+202 child
+
+202 teacher
+
+202 principal
+
+202 president
+
+202 mayor
+
+202 man
+
+202 boy
+
+202 girl
+
+202 architect
+
+202 minister
+
+202 father
+
+202 mother
+
+202 dentist
+
+202 nurse
+
+202 lawyer
+
+202 accountant
+
+202 psychologist
+
+202 engineer
+
+202 librarian
+
+202 statistician
+
+202 officer
+
+202 scientist
+
+202 designer
+
+202 developer
+
+202 captain
+
+202 judge
+
+202 prosecutor
+
+202 therapist
+
+202 husband
+
+202 wife
+
+202 spouse
+
+202 daughter
+
+203 organisation
+
+203 organization
+
+203 company
+
+203 hospital
+
+203 brand
+
+203 school
+
+203 party
+
+203 institution
+
+203 agency
+
+203 league
+
+203 club
+
+203 association
+
+203 college
+
+203 university
+
+203 kindergarten
+
+203 department
+
+203 prison
+
+203 jail
+
+203 asylum
+
+203 station
+
+204 process
+
+204 technique
+
+204 method
+
+204 treatment
+
+204 procedure
+
+204 protocol
+
+204 framework
+
+204 mechanism
+
+204 operation
+
+204 practice
+
+204 system
+
+205 airport
+
+205 city
+
+205 country
+
+205 location
+
+205 capital
+
+205 address
+
+205 colony
+
+205 neighbourhood
+
+205 locate
+
+205 district
+
+205 county
+
+205 state
+
+205 province
+
+205 continent
+
+205 hemisphere
+
+205 region
+
+205 venue
+
+205 spot
+
+205 place
+
+206 blood group
+
+207 language
+
+207 dialect
+
+207 speech
+
+207 jargon
+
+207 vocab
+
+208 nationality
+
+208 citizenship
+
+208 ethnicity
+
+209 river
+
+209 tributary
+
+209 estuary
+
+209 stream
+
+210 sport
+
+210 athletic
+
+210 game

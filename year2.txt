@@ -1,0 +1,1 @@
+Which _master-column-header-singular_ has the most recent _col_?

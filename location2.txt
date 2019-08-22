@@ -1,0 +1,2 @@
+How many distinct _col_ entries are there?
+Which _col_ has the maximum count?

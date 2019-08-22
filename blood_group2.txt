@@ -1,0 +1,6 @@
+Which is the most prominent _col_ for the given data?
+How many universal donors are there in the given data?
+How many universal recipients are there in the given data?
+What percent of universal donors are the universal recipients?
+How many _master-column-header_ have Rh negative?
+How many _master-column-header_ have Rh positive?

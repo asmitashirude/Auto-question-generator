@@ -1,0 +1,15 @@
+What is the greatest _colwb_ of any _master-column-header-singular_?
+What is the least _colwb_ of any _master-column-header-singular_?
+What is the average _colwb_ of all _master-column-header-plural_?
+Which _master-column-header-plural_ have more than average _colwb_?
+Which _master-column-header-singular_ has the greatest _colwb_?
+Which _master-column-header-singular_ has the least _colwb_?
+How many _master-column-header-plural_ have more than average _colwb_?
+How many _master-column-header-plural_ have less than average _colwb_?
+What is the difference between greatest and least _colwb_ for _master-column-header-plural_?
+What is the margin between greatest and second greatest _colwb_ for _master-column-header-plural_?
+What is the total _colwb_ of all the entries in _master-column-header-plural_ in_unit_?
+How many _master-column-header-plural_ have _colwb_ more than _more__unit_?
+How many _master-column-header-plural_ have _colwb_ less than _less__unit_?
+List all _master-column-header-plural_ with _colwb_ more than _more__unit_?
+List all _master-column-header-plural_ with _colwb_ less than _less__unit_?

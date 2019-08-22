@@ -1,0 +1,229 @@
+114 number of
+
+114 no. of
+
+108 fax
+
+108 pager
+
+108 mobile
+
+108 contact
+
+108 phone
+
+108 dial
+
+100 number
+
+100 no.
+
+103 height
+
+103 ht.
+
+103 elevation
+
+104 weight
+
+104 wt.
+
+104 mass
+
+105 length
+
+105 width
+
+105 breadth
+
+105 depth
+
+105 diameter
+
+105 radius
+
+105 perimeter
+
+109 pincode
+
+109 zipcode
+
+106 code
+
+106 ssn
+
+106 imei
+
+106 uid
+
+106 imsi
+
+107 percent
+
+107 %
+
+110 grade
+
+110 scale
+
+110 rating
+
+110 level
+
+111 score
+
+111 mark
+
+111 result
+
+111 tally
+
+112 byte
+
+112 kb
+
+112 mb
+
+112 gb
+
+112 tb
+
+112 bit
+
+112 nibble
+
+112 word
+
+113 temperature
+
+113 melting point
+
+113 melting pt
+
+113 boiling point
+
+113 boiling pt
+
+113 freezing point
+
+113 freezing pt
+
+113 evaporation point
+
+113 evaporation pt
+
+114 value
+
+114 unit
+
+114 volume
+
+114 size
+
+115 money
+
+115 capital
+
+115 amount
+
+115 salary
+
+115 fund
+
+115 revenue
+
+115 interest
+
+115 price
+
+115 cost
+
+115 earning
+
+115 principle
+
+115 income
+
+115 emi
+
+115 rupee
+
+115 usd
+
+115 euro
+
+115 dollar
+
+115 dinar
+
+115 rs.
+
+115 $
+
+115 check
+
+115 fund
+
+115 payment
+
+115 cheque
+
+115 wage
+
+115 expense
+
+115 expenditure
+
+116 fraction
+
+116 portion
+
+116 ratio
+
+117 area
+
+117 density
+
+117 population
+
+117 mean
+
+117 average
+
+117 frequency
+
+117 standard deviation
+
+117 variance
+
+117 measure
+
+117 quota
+
+117 angle
+
+117 cubic
+
+117 square
+
+117 haemoglobin
+
+117 hb
+
+117 bmi
+
+117 body mass index
+
+102 age
+
+106 id
+
+106 mis
+
+114 total
+
+101 year
+
+101 yr
+
+101 annum

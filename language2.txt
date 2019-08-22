@@ -1,0 +1,4 @@
+Which language is the most commonly known to given _master-column-header_?
+Which _master-column-header_ uses maximum languages?
+How many varied languages are used amongst all _master-column-header_ for the given data?
+Which language is rarely used for the given data?

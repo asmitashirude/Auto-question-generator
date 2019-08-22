@@ -1,0 +1,2 @@
+Which _col_ is most commonly played by any _master-column-header_ from the given data?
+Which _col_ is rarely played by _master-column-header_ from the given data?
