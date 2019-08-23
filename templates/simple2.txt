@@ -1,0 +1,3 @@
+What is the average of _colwb_ for all _master-column-header-plural_?
+How many _master-column-header-plural_ have more than average _colwb_?
+How many _master-column-header-plural_ have less than average _colwb_?

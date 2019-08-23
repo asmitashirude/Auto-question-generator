@@ -1,4 +1,0 @@
-What is the _col_ of _row_?
-What is _row_'s _col_?
-Which language/s does _row_ use?
-Which _master-column-header_ uses languages same as that of _row_?

@@ -1,4 +1,0 @@
-What is the _col_ of _row_?
-What is _row_'s _col_?
-Which ethnic group does _row_ belong to?
-How many _master-column-header_ belong to the same ethnic group as _row_?

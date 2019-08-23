@@ -1,5 +1,0 @@
-What is the _col_ of _row_?
-What is _row_'s _col_?
-Which _master-column-header_ does _row_ share its _col_ with?
-How many _master-column-header_ does _row_ share its _col_ with?
-Is _row_ a universal donor?

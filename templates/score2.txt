@@ -1,0 +1,14 @@
+Which _master-column-header-singular_ has the highest _col_?
+Which _master-column-header-singular_ has the lowest _col_?
+What is the highest _col_?
+What is the lowest _col_?
+What is the average _col_?
+How many _master-column-header-plural_ have more than average _col_?
+How many _master-column-header-plural_ have less than average _col_?
+What is the difference between highest and lowest _col_?
+What is the margin between highest and second highest _col_ for _master-column-header-plural_?
+What percent is the least _col_ of the highest _col_?
+How many _master-column-header-plural_ have _colwb_ more than _more__unit_?
+How many _master-column-header-plural_ have _colwb_ less than _less__unit_?
+List all _master-column-header-plural_ with _colwb_ more than _more__unit_?
+List all _master-column-header-plural_ with _colwb_ less than _less__unit_?

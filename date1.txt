@@ -1,2 +1,0 @@
-When was _row_'s _col_?
-Assuming today's date, how many days have passed since _col_ of _row_?

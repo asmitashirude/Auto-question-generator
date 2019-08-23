@@ -1,6 +1,0 @@
-What is the _colwb_ of _row_?
-What is the _row_'s _colwb_?
-How many _master-column-header-plural_ weigh more than _row_?
-How many _master-column-header-plural_ weigh less than _row_?
-How many _master-column-header-plural_ have _colwb_ more than _data__unit_?
-How many _master-column-header-plural_ have _colwb_ less than _data__unit_?

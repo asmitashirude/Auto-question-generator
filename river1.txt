@@ -1,4 +1,0 @@
-Which river flows in _row_?
-In which all _master-column-header_ does _data_ flow?
-In how many _master-column-header_ does _data_ flow?
-How many _master-column-header_ are on the banks of _data_?

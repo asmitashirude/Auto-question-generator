@@ -1,1 +1,0 @@
-How many distinct _col_ entries exist for the given data?

@@ -1,3 +1,0 @@
-What is _row_'s _col_?
-What is the _col_ of _row_?
-How many _master-column-header-plural_ have same _col_ as _data_?

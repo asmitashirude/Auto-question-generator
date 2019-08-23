@@ -1,0 +1,17 @@
+Who is/are the youngest _master-column-header-plural_?
+Who is/are the eldest _master-column-header-plural_?
+Who amongst all _master-column-header-plural_ is/are the youngest?
+Who amongst all _master-column-header-plural_ is/are the eldest?
+What is the mean of _colwb_ of all the _master-column-header-plural_?
+What is the mode of _colwb_ of all the _master-column-header-plural_?
+What is the median of _colwb_ of all the _master-column-header-plural_?
+How many _master-column-header-plural_ are below average _colwb_?
+How many _master-column-header-plural_ are above average _colwb_?
+How many _master-column-header-plural_ have _colwb_ more than _more__unit_?
+How many _master-column-header-plural_ have _colwb_ less than _less__unit_?
+List all _master-column-header-plural_ with _colwb_ more than _more__unit_?
+List all _master-column-header-plural_ with _colwb_ less than _less__unit_?
+Evaluate the difference between eldest and second eldest _master-column-header_?
+Name the two eldermost _master-column-header_?
+What is the difference between average _colwb_ and highest value of _colwb_?
+What is the difference between average _colwb_ and lowest value of _colwb_?

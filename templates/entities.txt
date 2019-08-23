@@ -1,0 +1,61 @@
+1. date
+
+2. binary
+
+100. default-numeric
+
+101. year
+
+102. age
+
+103. height
+
+104. weight
+
+105. length
+
+106. id
+
+107. percentage
+
+108. phone_number
+
+109. pincode
+
+110. rating
+
+111. score
+
+112. size
+
+113. temperature
+
+114. simple
+
+115. money
+
+116. fraction
+
+117. measure
+
+200. defualt-string
+
+201. code(nominal)
+
+202. person
+
+203. organisation
+
+204. process
+
+205. location
+
+206. blood_group
+
+207. language
+
+208. nationality
+
+209. river
+
+210. sports

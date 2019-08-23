@@ -2,8 +2,10 @@ from corpus import Corpus
 import pandas as pd
 from dateutil.parser import parse
 import random
+import os
 import language_check
 from textblob import TextBlob
+import glob
 
 corpus = Corpus()
 templateCorpus = corpus.getTemplateCorpus()
@@ -23,8 +25,8 @@ def is_date(string, fuzzy=False):
     except ValueError:
         return False
 
-def is_binary(columnNumber):
-    values = dataset.iloc[:, columnNumber]
+def is_binary(colNo):
+    values = dataset.iloc[:, colNo]
     values = [str(value) for value in values]
     values = [value.lower().strip() for value in values]
     if(all(value in ['yes', 'no'] for value in values) or 
@@ -53,9 +55,9 @@ def getColumnCategory(cellValue, columnHeader):
 
 def getAllTemplatesFor(col, templateType):
     list_of_lists = []
-    with open(col + str(templateType) + '.txt') as f:
-        for line in f:
-            list_of_lists.append(line)
+    template_file = open(os.path.join("templates", col + str(templateType) + '.txt'), "r") 
+    for line in template_file:
+        list_of_lists.append(line)
     return list_of_lists
 
 def getNameWithoutBrackets(string):
@@ -72,8 +74,11 @@ def getPlural(string):
     plurals = [word.pluralize() for word in blob.words]
     return plurals[0]
 
+def readInput(inputFile):
+    xls_files = glob.glob(os.getcwd() + "\\input\\" + inputFile)
+    return pd.read_excel(xls_files[0])
 
-dataset = pd.read_excel('example04.xls')
+dataset = readInput('example04.xls')
 
 head = dataset.columns[0].lower()
 head = head.replace("name of ", "")
@@ -93,7 +98,7 @@ if (head == 'first') | (head == 'last'):
 dataset.rename(columns = {dataset.columns[0] : head}, inplace=True)
 
 for col in dataset.columns:
-    dataset.rename(columns = {col : col.replace("the ", "")}, inplace=True)
+    dataset.rename(columns = {col : col.replace("the ", "").replace("The ", "").replace("?", "")}, inplace=True)
 
 columnCategories = []
 for i in range (len(dataset.columns)):
@@ -105,12 +110,14 @@ for i in range (len(dataset.columns)):
         columnCategories.append(getColumnCategory(dataset.iloc[0, i], dataset.columns[i].lower()))
 
 questions = []
-for columnNumber in range(1, len(columnCategories)):
-    columnAnnotation = columnCategories[columnNumber]
-    in_unit = dataset.columns[columnNumber][dataset.columns[columnNumber].find('(')+1:dataset.columns[columnNumber].find(')')]
+for colNo in range(1, len(columnCategories)):
+    columnAnnotation = columnCategories[colNo]
+    in_unit=''
+    if dataset.columns[colNo].find('(') > -1:
+        in_unit = dataset.columns[colNo][dataset.columns[colNo].find('(')+1:dataset.columns[colNo].find(')')]
     unit = in_unit.replace('in', '').replace('In', '')
     availableTemplateTypes = templateCorpus.iloc[templateCorpus.loc[templateCorpus['Template_Category'] == columnAnnotation].index[0]]
-    columnName = dataset.columns[columnNumber]
+    columnName = dataset.columns[colNo]
     columnNameWithoutBrackets = getNameWithoutBrackets(columnName)
     if availableTemplateTypes['Type_1'] == 1 :
         templates = getAllTemplatesFor(columnAnnotation, 1)
@@ -123,7 +130,7 @@ for columnNumber in range(1, len(columnCategories)):
         template = template.replace("_colwb_", columnNameWithoutBrackets)
         template = template.replace("_unit_", unit)
         template = template.replace("_in-unit_", in_unit)
-        template = template.replace("_data_", str(dataset.iloc[selectedRowNumber, columnNumber]))
+        template = template.replace("_data_", str(dataset.iloc[selectedRowNumber, colNo]))
         template = template.replace("_master-column-header_", dataset.columns[0])
         template = template.replace("_master-column-header-singular_", getSingular(dataset.columns[0]))
         template = template.replace("_master-column-header-plural_", getPlural(dataset.columns[0]))
@@ -136,12 +143,12 @@ for columnNumber in range(1, len(columnCategories)):
         templates = [template.replace('\n', '') for template in templates]
         template = templates[random.randint(0, len(templates)-1)]
         selectedRowNumber = random.randint(0, len(dataset)-1)
-        data = str(dataset.iloc[selectedRowNumber, columnNumber])
+        data = str(dataset.iloc[selectedRowNumber, colNo])
         #use dictionary and for loop to make this code crisp
         if availableTemplateTypes['Data_Type'] == 'number':
-            variation = (max(dataset.iloc[:, columnNumber]) - min(dataset.iloc[:, columnNumber]))*0.2
-            template = template.replace("_less_", str(min(dataset.iloc[:, columnNumber])+variation))
-            template = template.replace("_more_", str(max(dataset.iloc[:, columnNumber])-variation))
+            variation = (max(dataset.iloc[:, colNo]) - min(dataset.iloc[:, colNo]))*0.2
+            template = template.replace("_less_", str(min(dataset.iloc[:, colNo])+variation))
+            template = template.replace("_more_", str(max(dataset.iloc[:, colNo])-variation))
             template = template.replace("_sample_", data[:round(len(data)/2)])
         template = template.replace("_col_", columnName)
         template = template.replace("_colwb_", columnNameWithoutBrackets)
@@ -165,8 +172,8 @@ for columnNumber in range(1, len(columnCategories)):
         template = template.replace("_colwb_", columnNameWithoutBrackets)
         template = template.replace("_unit_", unit)
         template = template.replace("_in-unit_", in_unit)
-        template = template.replace("_data1_", str(dataset.iloc[selectedRowNumbers[0], columnNumber]))
-        template = template.replace("_data2_", str(dataset.iloc[selectedRowNumbers[1], columnNumber]))
+        template = template.replace("_data1_", str(dataset.iloc[selectedRowNumbers[0], colNo]))
+        template = template.replace("_data2_", str(dataset.iloc[selectedRowNumbers[1], colNo]))
         template = template.replace("_master-column-header_", dataset.columns[0])
         template = template.replace("_master-column-header-singular_", getSingular(dataset.columns[0]))
         template = template.replace("_master-column-header-plural_", getPlural(dataset.columns[0]))
@@ -175,6 +182,6 @@ for columnNumber in range(1, len(columnCategories)):
         print(template)
 
 del i, head, col
-del columnName, columnNumber, columnAnnotation, columnNameWithoutBrackets
+del columnName, colNo, columnAnnotation, columnNameWithoutBrackets
 del availableTemplateTypes, unit, in_unit, template, templates 
 del variation, selectedRowNumber, selectedRowNumbers, data

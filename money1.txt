@@ -1,6 +1,0 @@
-What is _row_'s _colwb_?
-What is the _colwb_ of _row_?
-How many _master-column-header-plural_ have _colwb_ more than _data__unit_?
-How many _master-column-header-plural_ have _colwb_ less than _data__unit_?
-How many _master-column-header-plural_ have _colwb_ in the range _data_ +/- 5%_unit_?
-By what margin does _colwb_ of _row_ differ from average?

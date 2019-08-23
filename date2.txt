@@ -1,2 +1,0 @@
-Which _master-column-header-singular_'s _colwb_ is first?
-Which _master-column-header-singular_'s _colwb_ is the latest?

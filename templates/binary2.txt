@@ -1,0 +1,3 @@
+How many _master-column-header-plural_ (are) _col_?
+Which all _master-column-header-plural_ (are) _col_?
+Is it true that majority of _master-column-header_ (are) _col_ for the given data?

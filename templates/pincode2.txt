@@ -1,0 +1,2 @@
+How many distinct _colwb_ entries exist in the given data?
+Which location has maximum _master-column-header-plural_?

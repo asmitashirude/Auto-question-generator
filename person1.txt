@@ -1,2 +1,0 @@
-Who is _row_'s _col_?
-Who is _col_ of _row_?

@@ -1,2 +1,0 @@
-What is the difference between _colwb_ of _row1_ and that of _row2_?
-Evaluate the difference between the _colwb_ of _row1_ and average of _colwb_ of _row1_ and that of _row2_?

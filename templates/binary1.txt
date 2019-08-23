@@ -1,0 +1,2 @@
+Does(Is) _row_ _col_?
+Is it true that _row_ (is) _col_?

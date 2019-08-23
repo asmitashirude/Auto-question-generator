@@ -1,7 +1,0 @@
-What is the difference between _colwb_ of _row1_ and that of _row2_?
-By how many years is _row1_ elder/younger than _row2_?
-Evaluate the difference between the _colwb_ of _row1_ and average of _colwb_ of _row1_ and that of _row2_?
-Is _row1_ elder than _row2_?
-Is _row1_ younger than _row2_?
-How many _master-column-header_ have _col_ between that of _row1_ and _row2_?
-Who all have _colwb_ between that of _row1_ and _row2_?

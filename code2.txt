@@ -1,2 +1,0 @@
-List down all _master-column-header-plural_ for which _col_ starts with _sample_.
-How many _col_ start with _sample_?

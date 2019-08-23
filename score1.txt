@@ -1,6 +1,0 @@
-What is _col_ of _row_?
-What is _row_'s _col_?
-How many _master-column-header-plural_ have more than _data_ _col_?
-How many _master-column-header-plural_ have less than _data_ _col_?
-How many _master-column-header-plural_ got same _col_ as _row_?
-By what margin does _col_ of _row_ differ from average?
